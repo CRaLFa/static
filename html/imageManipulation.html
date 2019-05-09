@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Image Manipulation</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/imageManipulation.js?ver=1.0.4"></script>
+    <link rel="stylesheet" href="css/style.css?ver=1.0.6">
+</head>
+<body>
+    <div class="title">Image Manipulation</div>
+    <!-- <p><a href="index.html">戻る</a></p> -->
+    <input type="file" accept="image/*" id="inputImage">
+    <br>
+    <div class="horizontal">
+        <input type="button" id="flipButton" class="manipulate" value="左右反転">
+        <input type="button" id="turnButton" class="manipulate" value="180°回転">
+        <input type="button" id="invertButton" class="manipulate" value="色反転">
+        <input type="button" id="grayscaleButton" class="manipulate" value="カラー ⇔ モノクロ">
+        <br>
+        <div class="space"></div>
+        <a id="download" download><input type="button" id="downloadButton" value="ダウンロード"></a>
+        <input type="button" id="clearButton" value="クリア">
+    </div>
+    <div id="color" class="horizontal"></div>
+    <br>
+    <div class="space"></div>
+    <canvas id="canvas"></canvas>
+</body>
+</html>

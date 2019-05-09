@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'fot-rodinntlgpro-eb';
+    src: url('font/fot-rodinntlgpro-eb.woff') format('woff');
+}
+
+body {
+    background-color: #fffff7;
+    font-family: 'fot-rodinntlgpro-eb';
+    margin-left: 15px;
+}
+
+div.title {
+    color: #000008;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+div.space {
+    height: 15px;
+}
+
+div.horizontal {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+input {
+    cursor: pointer;
+    border-radius: 5px;
+    color: #000008;
+    font-family: 'fot-rodinntlgpro-eb';
+    font-size: 15px;
+}
+
+.manipulate {
+    color: #fffff7;
+    background-color: #000008;
+}
+
+#downloadButton {
+    color: #fffff7;
+    background-color: #0000a8;
+}
+
+#clearButton {
+    color: #fffff7;
+    background-color: #a80000;
+}
+
+div#color {
+    width: 250px;
+    height: 85px;
+    font-size: 20px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+#canvas {
+    border: 1px #808080 solid;
+    margin-right: 15px;
+}
