@@ -1,4 +1,5 @@
-html/json/
-html/lib/
-html/img/
-html/css/font/
+# Herokuデプロイ時はコメントアウト
+/html/json/
+/html/lib/
+/html/img/
+/html/css/font/
