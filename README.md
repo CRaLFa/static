@@ -7,3 +7,6 @@
 
 * Image Manipulation  
 	<https://rana-static.herokuapp.com/imageManipulation.html>
+
+* 何切る?  
+	<https://rana-static.herokuapp.com/nanikiru.html>
